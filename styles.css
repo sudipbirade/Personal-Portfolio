@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: grey;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.myname{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+}
+
+.resumebutton{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+}
+
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-right: 2px solid black;
+}
+.left-main-body{
+    width:100%;
+    font-size: small;
+}
+.first-div,
+.second-div,
+.third-div,
+.fourth-div{
+    padding: 1rem;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width: 100%;
+}
+.main-body-img{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.chips-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.chips{
+    border: 2px solid black;
+    border-radius: 32px;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+}
